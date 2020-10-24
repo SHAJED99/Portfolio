@@ -1,0 +1,654 @@
+/* --------------------------- Tag */
+
+
+/* :-webkit-any(article, aside, nav, section) h1 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn_orn {
+    background-color: #FF9B51;
+}
+
+.btn_orn:hover {
+    background-color: rgba(0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.bar {
+    margin: 30px 0px;
+    width: 64px;
+    height: 2px;
+    background-color: #FF8B38;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+.i_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 139, 56);
+    border-radius: 100%;
+    border: 2px solid rgb(255, 139, 56);
+}
+
+
+/* --------------------------- UL LI */
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Font */
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(../font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../font/Raleway-Regular.ttf);
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- IMAGE */
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* --------------------------- */
+
+.bg-custome {
+    background-color: #F5F5F5;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- HEADER */
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+header .navbar .navbar-toggler,
+header .navbar .logo {
+    height: 27px;
+}
+
+header .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+header .navbar .navbar-toggler,
+header .navbar .navbar-nav .nav-link {
+    padding-left: 47px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.collapsed .option_btn {
+    transform: rotate(90deg);
+    transition: 0.2s ease-in-out;
+}
+
+.option_btn {
+    transform: rotate(0deg);
+    transition: 0.2s ease-in-out;
+}
+
+header .navbar .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.69);
+    line-height: 1.2;
+    text-align: right;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Banner */
+
+.banner {
+    background-color: black;
+}
+
+.banner .carousel-inner {
+    height: 712px;
+}
+
+.banner .carousel-inner .carousel-item .banner_img {
+    object-fit: cover;
+    opacity: 52%;
+}
+
+.banner .carousel-inner .container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(8% - 50%));
+}
+
+.banner .carousel-inner .container .content .logo {
+    height: 60px;
+}
+
+.banner .carousel-inner .container .content h1 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 33px;
+}
+
+.banner .carousel-inner .container .content .bar {
+    width: 70px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+
+.banner .carousel-inner .container .content p {
+    font-size: 16px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.438;
+    text-align: left;
+    padding-right: 10px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.banner .carousel-inner .container .content button {
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 13px 30px;
+    font-size: 15px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.banner .carousel-inner .container .content button:hover,
+.banner .carousel-inner .container .content button:focus {
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+
+/* --------------------------- Form Section */
+
+.banner .carousel-inner .container .content .card {
+    max-width: 360px;
+    border: none;
+}
+
+.banner .carousel-inner .container .content .card .card-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    background-color: #F5F5F5;
+}
+
+.banner .carousel-inner .container .content .card .card-header span {
+    color: #FF8B38;
+}
+
+.banner .carousel-inner .container .content .card .card-body {
+    background-color: #FFFFFF;
+    padding: 0px 38px;
+}
+
+.banner .carousel-inner .container .content .card .card-body .form-group {
+    margin-bottom: 48px;
+    box-shadow: 0px 1px #00000016;
+}
+
+.banner .carousel-inner .container .content .card .card-body .form-group input {
+    border: none;
+    padding: 12px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(189, 189, 189);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.banner .carousel-inner .container .content form .card-footer {
+    padding: 0px;
+}
+
+.banner .carousel-inner .container .content form .card-footer button {
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    border: none;
+    padding: 20px 0px;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Social Link Section */
+
+.social_link {
+    background-color: white;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+}
+
+.social_link h1 {
+    padding-top: 23px;
+    padding-bottom: 13px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+.social_link p {
+    padding-bottom: 22px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(134, 135, 139);
+    text-align: left;
+    font-weight: normal;
+}
+
+.social_link a i {
+    font-size: 48px;
+    color: rgb(204, 204, 204);
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- details_section */
+
+.details_section {
+    padding: 147px 0px;
+}
+
+
+/* CONTROLER */
+
+.details_section a {
+    max-width: 110px;
+    padding: 50px 0px;
+    border-bottom: 1px solid #C7C7C7;
+    background-color: #333333;
+    font-size: 15px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.details_section ul li:first-child a {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.details_section ul li:last-child a {
+    border: none;
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
+
+.details_section a:focus,
+.details_section a:active {
+    background-color: #FF9B51;
+}
+
+
+/* MAIN */
+
+.details_section .item h1 {
+    font-size: 20px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: left;
+}
+
+.details_section .item p {
+    margin-top: 55px;
+    margin-bottom: 50px;
+    max-width: 499px;
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(134, 135, 139);
+    text-align: left;
+}
+
+.details_section .item button {
+    border: none;
+    border-radius: calc(.25rem - 1px);
+    padding: 15px 25px;
+    font-size: 15px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+.details_section .item .img_content {
+    max-height: 250px;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Sub_list */
+
+.sub_list {
+    padding: 107px 0px;
+}
+
+.sub_list .img_content {
+    max-width: 450px;
+}
+
+.sub_list h1 {
+    font-size: 20px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(33, 33, 33);
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.sub_list p {
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(134, 135, 139);
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sub_list .details {
+    max-width: 465px;
+}
+
+.sub_list .details .content>p {
+    padding-bottom: 4px;
+}
+
+.sub_list .detail {
+    padding-top: 42px;
+}
+
+.sub_list .detail p {
+    max-width: 365px;
+}
+
+.sub_list i {
+    min-width: 40px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.sub_list h2 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+}
+
+
+/* --------------------------- */
+
+
+/* --------------------------- Why AWESOME */
+
+.why_awesome {
+    padding: 105px 0px;
+}
+
+.why_awesome .container .row .col-4 {
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.why_awesome h1 {
+    font-size: 36px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    color: rgb(33, 33, 33);
+}
+
+.why_awesome p {
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(134, 135, 139);
+}
+
+.why_awesome .content {
+    padding-top: 40px;
+}
+
+.why_awesome i {
+    margin-top: 40px;
+    width: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    font-size: 32px;
+}
+
+.why_awesome .content h1 {
+    font-size: 20px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.why_awesome .content p {
+    margin: 0px;
+}
+
+
+/* --------------------------- */
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1199px) {
+    /* --------------------------- BANNER */
+    .banner .carousel-inner {
+        height: 700px;
+    }
+    .banner .carousel-inner .container .content h1 {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    .banner .carousel-inner .container .content .bar {
+        margin: 30px 0px;
+    }
+    .banner .carousel-inner .container .content p {
+        font-size: 13px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /* --------------------------- */
+}
+
+@media (max-width: 991px) {
+    /* --------------------------- BANNER */
+    .banner .carousel-inner {
+        height: 680px;
+    }
+    .banner .carousel-inner .container .content h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .banner .carousel-inner .container .content .bar {
+        margin: 20px 0px;
+    }
+    .banner .carousel-inner .container .content .card {
+        max-width: 300px;
+    }
+    .banner .carousel-inner .container .content p {
+        font-size: 11px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* --------------------------- */
+    /* --------------------------- Social Link */
+    .social_link a i {
+        font-size: 35px;
+    }
+    .sub_list .img_content {
+        max-width: 300px;
+    }
+    .sub_list i {
+        margin-right: 20px;
+    }
+    /* --------------------------- */
+    /* --------------------------- why_awesome */
+    .why_awesome .content p {
+        font-size: 10px;
+    }
+    /* --------------------------- */
+}
+
+@media (max-width: 767px) {
+    /* --------------------------- header */
+    header .navbar .navbar-nav .nav-link {
+        padding: 0px;
+    }
+    /* --------------------------- */
+    /* --------------------------- BANNER */
+    .banner .carousel-inner {
+        height: 800px;
+    }
+    .banner .carousel-inner .container {
+        transform: translate(-50%, calc(4% - 50%));
+    }
+    .banner .carousel-inner .container .content h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .banner .carousel-inner .container .content .bar {
+        margin: 20px 0px;
+    }
+    .banner .carousel-inner .container .content .card {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    .banner .carousel-inner .container .content p {
+        font-size: 11px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* --------------------------- */
+    /* --------------------------- Social Link Section */
+    .social_link {
+        padding: 20px 0px;
+    }
+    .social_link h1 {
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    .social_link a i {
+        font-size: 35px;
+    }
+    .details_section {
+        padding: 40px 0px;
+    }
+    .details_section .item p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .sub_list {
+        padding: 50px 0px;
+    }
+    .sub_list i {
+        margin-right: 20px;
+    }
+    .sub_list .bar {
+        margin: 15px 0px;
+    }
+    .sub_list .detail {
+        padding-top: 20px;
+    }
+    .sub_list .img_content {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    /* --------------------------- */
+    /* --------------------------- why_awesome */
+    .why_awesome .content p {
+        font-size: 14px;
+    }
+    /* --------------------------- */
+}
