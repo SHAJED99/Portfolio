@@ -154,7 +154,7 @@
                     </ul>
                 </div>
                 <div class="col-12 col-sm-10">
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-one owl-carousel owl-theme">
 
                         <div class="item active" data-hash="zero">
                             <div class="row align-items-center">
@@ -345,17 +345,70 @@
                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
 
-                <!-- <div class="owl-carousel-card owl-theme">
-                    <div class="item ">
-                        <h4>1</h4>
+                <div class="col-12 owl-card owl-carousel owl-theme">
+                    <div class="item card text-center">
+                        <div class="card-header">Basic</div>
+
+                        <div class="dol_div">
+                            <h1><i class="fas fa-dollar-sign"></i>0</h1>
+                            <p>Free for Life</p>
+                        </div>
+                        <div class="orange">
+                            <h1>OUR MOST POPULAR</h1>
+                        </div>
+
+                        <div class="card-footer">
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                        </div>
                     </div>
-                    <div class="item">
-                        <h4>2</h4>
+
+                    <div class="item card text-center">
+                        <div class="card-header">Basic</div>
+
+                        <div class="dol_div">
+                            <h1><i class="fas fa-dollar-sign"></i>19</h1>
+                            <p>Free for Life</p>
+                        </div>
+                        <div class="orange">
+                            <h1>OUR MOST POPULAR</h1>
+                        </div>
+
+                        <div class="card-footer">
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                        </div>
                     </div>
-                    <div class="item">
-                        <h4>3</h4>
+
+                    <div class="item card text-center">
+                        <div class="card-header">Basic</div>
+
+                        <div class="dol_div">
+                            <h1><i class="fas fa-dollar-sign"></i>70</h1>
+                            <p>Free for Life</p>
+                        </div>
+                        <div class="orange">
+                            <h1>OUR MOST POPULAR</h1>
+                        </div>
+
+                        <div class="card-footer">
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                            <p>1 gb of space</p>
+                        </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
 
@@ -372,7 +425,7 @@
     <script src="./js/isotope.pkgd.min.js"></script>
 
     <script>
-        var owl = $('.owl-carousel');
+        var owl = $('.owl-one');
         owl.owlCarousel({
             loop: false,
             nav: false,
@@ -386,20 +439,27 @@
             items: 1,
         });
 
-        // $('.owl-carousel-card').owlCarousel({
-        //     loop: true,
-        //     margin: 10,
-        //     nav: true,
-        //     responsive: {
+        $('.owl-card').owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: false,
+            center: true,
+            animateOut: 'animate__fadeOut',
+            animateIn: 'animate__fadeIn',
+            startPosition: 1,
 
-        //         600: {
-        //             items: 1
-        //         },
-        //         1000: {
-        //             items: 3
-        //         }
-        //     }
-        // })
+            responsive: {
+                0: {
+                    items: 1
+                },
+
+                767: {
+                    items: 3
+                },
+            }
+        })
     </script>
 </body>
 
