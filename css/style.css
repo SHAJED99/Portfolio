@@ -516,6 +516,102 @@ header .navbar .nav-item .nav-link {
     margin: 0px;
 }
 
+.why_awesome .owl-card {
+    padding-top: 80px;
+}
+
+.why_awesome .card {
+    border: none;
+    margin-top: 48px;
+}
+
+.why_awesome .center.owl-item .card {
+    margin-top: 0px;
+}
+
+.why_awesome .card .card-header {
+    font-size: 20px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: #333333;
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+}
+
+.why_awesome .card .dol_div {
+    background-color: #333333;
+}
+
+.why_awesome .card .dol_div h1 {
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 30px 0px;
+    line-height: 48px;
+}
+
+.why_awesome .card .dol_div i {
+    font-size: 35px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    min-width: auto;
+    min-height: auto;
+}
+
+.why_awesome .card .dol_div p {
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.why_awesome .card .orange {
+    background-color: #FF8B38;
+    padding: 2.5px;
+}
+
+.why_awesome .center.owl-item .orange h1 {
+    display: block;
+}
+
+.why_awesome .card .orange h1 {
+    display: none;
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.714;
+    padding: 12.5px 0px;
+}
+
+.why_awesome .card .card-footer {
+    background-color: #FFFFFF;
+    padding: 0px;
+    border-top: none;
+}
+
+.why_awesome .card .card-footer p {
+    font-size: 14px;
+    font-family: "OpenSans", Arial, Helvetica, sans-serif;
+    color: rgb(134, 135, 139);
+    text-transform: uppercase;
+    line-height: 1.714;
+    padding: 15px 0px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.why_awesome .card .card-footer p:last-child {
+    border: none;
+}
+
 
 /* --------------------------- */
 
