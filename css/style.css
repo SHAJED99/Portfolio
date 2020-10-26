@@ -362,7 +362,8 @@ header .navbar .nav-item .nav-link {
 }
 
 .details_section a:focus,
-.details_section a:active {
+.details_section a:active,
+.details_section a.active {
     background-color: #FF9B51;
 }
 
@@ -579,17 +580,18 @@ header .navbar .nav-item .nav-link {
 }
 
 .why_awesome .center.owl-item .orange h1 {
-    display: block;
-}
-
-.why_awesome .card .orange h1 {
-    display: none;
     font-size: 14px;
     font-family: "OpenSans", Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.714;
     padding: 12.5px 0px;
+    transition: 0.5s;
+}
+
+.why_awesome .card .orange h1 {
+    font-size: 0px;
+    padding: 0px;
 }
 
 .why_awesome .card .card-footer {
@@ -745,6 +747,22 @@ header .navbar .nav-item .nav-link {
     /* --------------------------- why_awesome */
     .why_awesome .content p {
         font-size: 14px;
+    }
+    /* --------------------------- */
+}
+
+@media (max-width: 575px) {
+    /* --------------------------- details_section */
+    .details_section a {
+        padding: 1px 10px;
+        font-size: 5px;
+        margin: 20px 10px;
+    }
+    .details_section ul li:first-child a {
+        border-radius: calc(.25rem - 1px) 0 0 calc(.25rem - 1px);
+    }
+    .details_section ul li:last-child a {
+        border-radius: 0 calc(.25rem - 1px) calc(.25rem - 1px) 0;
     }
     /* --------------------------- */
 }
